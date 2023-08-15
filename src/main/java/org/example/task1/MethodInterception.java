@@ -9,25 +9,16 @@ public class MethodInterception {
     public MainPage createPage(Class clazz) {
         Class[] classes = new Class[]{clazz};
         ClassLoader loader = clazz.getClassLoader();
-        InvocationHandler handler = new MyProxy();
-        Object proxy = Proxy.newProxyInstance(loader, classes, handler);
 
-        return (MainPage) proxy;
-
-    }
-
-    static class MyProxy implements InvocationHandler {
-        public MyProxy() {
-        }
-
-        @Override
-        public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-            if (method.isAnnotationPresent(Selector.class)) {
-                var selectorAnnotation = method.getAnnotation(Selector.class);
-                return selectorAnnotation.xpath();
-            } else {
-                throw new Exception();
-            }
-        }
+        return (MainPage) Proxy.newProxyInstance(
+                loader,
+                classes,
+                (proxy, method, args) -> {
+                    if (method.isAnnotationPresent(Selector.class)) {
+                        var annotation = method.getAnnotation(Selector.class);
+                        return annotation.xpath();
+                    } else throw new Exception();
+                }
+        );
     }
 }
