@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.METHOD, ElementType.TYPE}) //on class level
+@Target({ElementType.METHOD, ElementType.TYPE})
 public @interface TestMethodInfo {
     Priority priority() default Priority.Major;
 
