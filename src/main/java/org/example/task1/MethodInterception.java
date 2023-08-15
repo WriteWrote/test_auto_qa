@@ -3,6 +3,7 @@ package org.example.task1;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+import java.util.Optional;
 
 
 public class MethodInterception {
@@ -17,7 +18,8 @@ public class MethodInterception {
                     if (method.isAnnotationPresent(Selector.class)) {
                         var annotation = method.getAnnotation(Selector.class);
                         return annotation.xpath();
-                    } else throw new Exception();
+                    } else return Optional.empty();     // I don't think this approach is appropriate,
+                                                        // but returning null is even more offencive
                 }
         );
     }
