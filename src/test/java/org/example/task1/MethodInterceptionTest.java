@@ -1,10 +1,11 @@
 package org.example.task1;
 
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.testng.Assert.assertEquals;
+import static org.testng.AssertJUnit.assertNotNull;
 
-class MethodInterceptionTest {
+public class MethodInterceptionTest {
     private final MethodInterception service = new MethodInterception();
 
     @Test

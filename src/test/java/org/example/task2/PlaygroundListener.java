@@ -2,13 +2,11 @@ package org.example.task2;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
-import org.testng.ITestNGMethod;
 import org.testng.ITestResult;
-import org.testng.annotations.CustomAttribute;
 
 import java.lang.reflect.Method;
 
-public class MyListener implements ITestListener {
+public class PlaygroundListener implements ITestListener {
     @Override
     public void onTestStart(ITestResult result) {
         ITestListener.super.onTestStart(result);
@@ -19,7 +17,6 @@ public class MyListener implements ITestListener {
 
         // it would be good to use a smart way to define which parameters should method print,
         // but I don't know how to do it, so it will be just printed
-
         System.out.println("\nTestMethodInfo parameters:");
 
         System.out.println("    Author: " + annotation.author());
