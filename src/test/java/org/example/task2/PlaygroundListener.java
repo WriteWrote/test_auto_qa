@@ -31,5 +31,4 @@ public class PlaygroundListener implements ITestListener {
         ITestListener.super.onStart(context);
         System.out.println("\n" + context.getName() + " started");
     }
-
 }

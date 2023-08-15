@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6252a80b-6eec-42c9-9923-8780ed7b95b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/task1/MethodInterceptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/task1/MethodInterceptionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/task2/MyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/task2/PlaygroundListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/task2/PlaygroundListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/task2/PlaygroundListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/task2/TestMethodInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/task2/TestMethodInfoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +202,7 @@
       <workItem from="1692026882334" duration="2965000" />
       <workItem from="1692083446001" duration="8978000" />
       <workItem from="1692110920187" duration="2387000" />
-      <workItem from="1692113327577" duration="439000" />
+      <workItem from="1692113327577" duration="2699000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1692097196151</created>
@@ -261,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692112851638</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="changed JUnit MethodInterceptionTest to TestNg">
+      <created>1692113788305</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692113788305</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +282,18 @@
     <MESSAGE value="first try to introduce Listener to class&#10;* need to switch in Gradle to useTestNG() instead of useJUnitTest()" />
     <MESSAGE value="second try to introduce Listener to class" />
     <MESSAGE value="Listener's introduced, annotation parameters're printed. WITHOUT service loader just yet." />
-    <option name="LAST_COMMIT_MESSAGE" value="Listener's introduced, annotation parameters're printed. WITHOUT service loader just yet." />
+    <MESSAGE value="changed JUnit MethodInterceptionTest to TestNg" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed JUnit MethodInterceptionTest to TestNg" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/task2/PlaygroundListener.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
