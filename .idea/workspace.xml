@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6252a80b-6eec-42c9-9923-8780ed7b95b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/task2/TestMethodInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/task2/TestMethodInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/task2/TestMethodInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/task2/TestMethodInfoTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="6252a80b-6eec-42c9-9923-8780ed7b95b2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +183,7 @@
       <updated>1692008407571</updated>
       <workItem from="1692008409374" duration="8213000" />
       <workItem from="1692026882334" duration="2965000" />
-      <workItem from="1692083446001" duration="8175000" />
+      <workItem from="1692083446001" duration="8931000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1692097196151</created>
@@ -225,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692100353358</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="first try to introduce Listener to class&#10;* need to switch in Gradle to useTestNG() instead of useJUnitTest()">
+      <created>1692106026028</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692106026028</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +239,8 @@
     <MESSAGE value="toying w/ Optionals" />
     <MESSAGE value="logging" />
     <MESSAGE value="task 2: establishing" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 2: establishing" />
+    <MESSAGE value="first try to introduce Listener to class&#10;* need to switch in Gradle to useTestNG() instead of useJUnitTest()" />
+    <option name="LAST_COMMIT_MESSAGE" value="first try to introduce Listener to class&#10;* need to switch in Gradle to useTestNG() instead of useJUnitTest()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
