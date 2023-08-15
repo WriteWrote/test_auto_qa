@@ -1,12 +1,10 @@
 package org.example.task1;
 
 import org.junit.jupiter.api.Test;
-import static org.mockito.Mockito.mock;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class MethodInterceptionTest {
-//    private final MethodInterception service = mock(MethodInterception.class);
     private final MethodInterception service = new MethodInterception();
 
     @Test
