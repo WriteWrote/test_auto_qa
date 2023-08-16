@@ -8,7 +8,9 @@
 
 - added logger
 - createPage() returns proxy which calls and returns annotation parameter
-  **Question:** how to create a null-safe response when annotation is not found?
+
+**Question:** how to create a null-safe response when annotation is not found? I used Optionals, but ony for null response,
+because proxy refused to be wrapped in Optionals.
 
 ### Task 2
 
@@ -16,7 +18,8 @@
 - implemented OnTestStart()
 - printed annotation parameters
 - connected Listener to the TestClass with annotation
-  **Question 1:** how to correctly gain the list of all annotation parameters?
+  
+**Question 1:** how to correctly gain the list of all annotation parameters?
 
 > I tried to use reflection, but it wasn't successful:
 
