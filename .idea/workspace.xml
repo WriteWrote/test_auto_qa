@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6252a80b-6eec-42c9-9923-8780ed7b95b2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/task2/TestMethodInfoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/task2/TestMethodInfoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +203,8 @@
       <workItem from="1692026882334" duration="2965000" />
       <workItem from="1692083446001" duration="8978000" />
       <workItem from="1692110920187" duration="2387000" />
-      <workItem from="1692113327577" duration="3048000" />
+      <workItem from="1692113327577" duration="3204000" />
+      <workItem from="1692168197471" duration="3460000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1692097196151</created>
@@ -272,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692117997008</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="reversed back @Listener(PlaygroundListener.class)">
+      <created>1692118296400</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692118296400</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,17 +300,7 @@
     <MESSAGE value="Listener's introduced, annotation parameters're printed. WITHOUT service loader just yet." />
     <MESSAGE value="changed JUnit MethodInterceptionTest to TestNg" />
     <MESSAGE value="tried into Service loader but failed" />
-    <option name="LAST_COMMIT_MESSAGE" value="tried into Service loader but failed" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/example/task2/PlaygroundListener.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="reversed back @Listener(PlaygroundListener.class)" />
+    <option name="LAST_COMMIT_MESSAGE" value="reversed back @Listener(PlaygroundListener.class)" />
   </component>
 </project>
